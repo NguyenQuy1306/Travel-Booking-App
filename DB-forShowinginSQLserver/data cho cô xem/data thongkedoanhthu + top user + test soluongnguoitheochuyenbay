@@ -1,0 +1,310 @@
+-- Dữ liệu cho bảng TaiKhoanDangNhap
+--Hàm 2
+
+
+select * from TaiKhoanNganHang
+EXEC InsertAndGetAutoKey_DonHang 'TK001'
+select * from DonHang
+
+select * from TaiKhoanNganHang
+EXEC InsertAndGetAutoKey_DonHang 'TK002'
+select * from DonHang
+
+select * from TaiKhoanNganHang
+EXEC InsertAndGetAutoKey_DonHang 'TK002'
+select * from DonHang
+
+
+
+INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-03-01 10:00:00', '2022-03-01 14:00:00', 'Ho Chi Minh City', 'Hanoi', 'H002');
+INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-03-14 10:00:00', '2022-03-14 14:00:00', 'HaNoi', 'Hue', 'H002');
+INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-04-02 10:00:00', '2022-04-02 14:00:00', 'Hue', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-04-07 10:00:00', '2022-04-07 14:00:00', 'DaNang', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-05-02 10:00:00', '2022-05-02 14:00:00', 'Ho Chi Minh City', 'DaNang', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-05-07 10:00:00', '2022-05-07 14:00:00', 'NhaTrang', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-06-02 10:00:00', '2022-06-02 14:00:00', 'Ho Chi Minh City', 'Hue', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-06-08 10:00:00', '2022-06-08 14:00:00', 'Ho Chi Minh City', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-01-02 10:00:00', '2022-01-02 14:00:00', 'HaNoi', 'Ho Chi Minh City', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-01-01 10:00:00', '2022-01-01 14:00:00', 'Ho Chi Minh City', 'NhaTrang', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-02-09 10:00:00', '2022-02-09 14:00:00', 'NhaTrang', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-02-09 10:00:00', '2022-02-09 14:00:00', 'HaNoi', 'DaNang', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-07-01 10:00:00', '2022-07-01 14:00:00', 'Ho Chi Minh City', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-07-14 10:00:00', '2022-07-14 14:00:00', 'HaNoi', 'Hue', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-08-02 10:00:00', '2022-08-02 14:00:00', 'Hue', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-08-07 10:00:00', '2022-08-07 14:00:00', 'DaNang', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-09-02 10:00:00', '2022-09-02 14:00:00', 'Ho Chi Minh City', 'DaNang', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-09-07 10:00:00', '2022-09-07 14:00:00', 'NhaTrang', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-10-02 10:00:00', '2022-10-02 14:00:00', 'Ho Chi Minh City', 'Hue', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-10-08 10:00:00', '2022-10-08 14:00:00', 'Ho Chi Minh City', 'Hanoi', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-11-02 10:00:00', '2022-11-02 14:00:00', 'HaNoi', 'Ho Chi Minh City', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-11-01 10:00:00', '2022-11-01 14:00:00', 'Ho Chi Minh City', 'NhaTrang', 'H002');
+  INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-12-09 10:00:00', '2022-12-09 14:00:00', 'NhaTrang', 'Hanoi', 'H002');
+INSERT INTO ChuyenBay (ThoiGianXuatPhat, ThoiGianHaCanh, DiaDiemXuatPhat, DiaDiemHaCanh, MaSoThueCuaHangHangKhong)
+VALUES
+  ( '2022-12-09 10:00:00', '2022-12-09 14:00:00', 'HaNoi', 'DaNang', 'H002');
+GO
+
+INSERT INTO KhoangTrenChuyenBay (MaSoMayBay, LoaiKhoang, GiaKhoang, SoLuongGheToiDaCungCap, MoTa)
+VALUES
+  ('CB025', 'Business', 2000000, 20,'Spacious seats with premium services'),
+  ('CB025', 'Economy', 800000, 150, 'Standard seating with in-flight entertainment'),
+  ('CB026', 'Business', 1800000, 18, 'Comfortable seats with extra legroom'), 
+  ('CB026', 'Economy', 700000, 160, 'Affordable seating for budget travelers'),
+  ('CB027', 'Business', 1900000, 30, 'Comfortable seats with extra legroom'), 
+  ('CB027', 'Economy', 750000, 150, 'Affordable seating for budget travelers'),
+  ('CB028', 'Business', 1850000, 25, 'Comfortable seats with extra legroom'), 
+  ('CB028', 'Economy', 750000, 160, 'Affordable seating for budget travelers'),
+  ('CB029', 'Business', 1750000, 22, 'Comfortable seats with extra legroom'), 
+  ('CB029', 'Economy', 850000, 144, 'Affordable seating for budget travelers'),
+  ('CB030', 'Business', 1600000, 32, 'Comfortable seats with extra legroom'), 
+  ('CB030', 'Economy', 770000, 145, 'Affordable seating for budget travelers'),
+  ('CB031', 'Business', 1900000, 30, 'Comfortable seats with extra legroom'), 
+  ('CB031', 'Economy', 750000, 150, 'Affordable seating for budget travelers'),
+  ('CB032', 'Business', 2000000, 20,'Spacious seats with premium services'),
+  ('CB032', 'Economy', 800000, 150, 'Standard seating with in-flight entertainment'),
+  ('CB033', 'Business', 1800000, 18, 'Comfortable seats with extra legroom'), 
+  ('CB033', 'Economy', 700000, 160, 'Affordable seating for budget travelers'),
+  ('CB034', 'Business', 1900000, 30, 'Comfortable seats with extra legroom'), 
+  ('CB034', 'Economy', 750000, 150, 'Affordable seating for budget travelers'),
+  ('CB035', 'Business', 1850000, 25, 'Comfortable seats with extra legroom'), 
+  ('CB035', 'Economy', 750000, 160, 'Affordable seating for budget travelers'),
+  ('CB036', 'Business', 1750000, 22, 'Comfortable seats with extra legroom'), 
+  ('CB036', 'Economy', 850000, 144, 'Affordable seating for budget travelers'),
+  ('CB037', 'Business', 2000000, 20,'Spacious seats with premium services'),
+  ('CB037', 'Economy', 800000, 150, 'Standard seating with in-flight entertainment'),
+  ('CB038', 'Business', 1800000, 18, 'Comfortable seats with extra legroom'), 
+  ('CB038', 'Economy', 700000, 160, 'Affordable seating for budget travelers'),
+  ('CB039', 'Business', 1900000, 30, 'Comfortable seats with extra legroom'), 
+  ('CB039', 'Economy', 750000, 150, 'Affordable seating for budget travelers'),
+  ('CB040', 'Business', 1850000, 25, 'Comfortable seats with extra legroom'), 
+  ('CB040', 'Economy', 750000, 160, 'Affordable seating for budget travelers'),
+  ('CB041', 'Business', 1750000, 22, 'Comfortable seats with extra legroom'), 
+  ('CB041', 'Economy', 850000, 144, 'Affordable seating for budget travelers'),
+  ('CB042', 'Business', 1600000, 32, 'Comfortable seats with extra legroom'), 
+  ('CB042', 'Economy', 770000, 145, 'Affordable seating for budget travelers'),
+  ('CB043', 'Business', 1900000, 30, 'Comfortable seats with extra legroom'), 
+  ('CB043', 'Economy', 750000, 150, 'Affordable seating for budget travelers'),
+  ('CB044', 'Business', 2000000, 20,'Spacious seats with premium services'),
+  ('CB044', 'Economy', 800000, 150, 'Standard seating with in-flight entertainment'),
+  ('CB045', 'Business', 1800000, 18, 'Comfortable seats with extra legroom'), 
+  ('CB045', 'Economy', 700000, 160, 'Affordable seating for budget travelers'),
+  ('CB046', 'Business', 1900000, 30, 'Comfortable seats with extra legroom'), 
+  ('CB046', 'Economy', 750000, 150, 'Affordable seating for budget travelers'),
+  ('CB047', 'Business', 1850000, 25, 'Comfortable seats with extra legroom'), 
+  ('CB047', 'Economy', 750000, 160, 'Affordable seating for budget travelers'),
+  ('CB048', 'Business', 1750000, 22, 'Comfortable seats with extra legroom'), 
+  ('CB048', 'Economy', 850000, 144, 'Affordable seating for budget travelers')
+
+
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH001', @MaSoChuyenBay = 'CB025'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH001', @MaSoChuyenBay = 'CB026'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH001', @MaSoChuyenBay = 'CB027'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH001', @MaSoChuyenBay = 'CB028'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH001', @MaSoChuyenBay = 'CB029'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH001', @MaSoChuyenBay = 'CB030'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH001', @MaSoChuyenBay = 'CB031'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH002', @MaSoChuyenBay = 'CB032'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH002', @MaSoChuyenBay = 'CB033'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH002', @MaSoChuyenBay = 'CB034'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH002', @MaSoChuyenBay = 'CB035'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH003', @MaSoChuyenBay = 'CB036'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH003', @MaSoChuyenBay = 'CB037'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH003', @MaSoChuyenBay = 'CB038'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH003', @MaSoChuyenBay = 'CB039'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH003', @MaSoChuyenBay = 'CB040'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH003', @MaSoChuyenBay = 'CB041'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH004', @MaSoChuyenBay = 'CB042'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH004', @MaSoChuyenBay = 'CB043'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH004', @MaSoChuyenBay = 'CB044'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH004', @MaSoChuyenBay = 'CB045'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH004', @MaSoChuyenBay = 'CB046'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH004', @MaSoChuyenBay = 'CB047'
+GO
+EXEC InsertAndGetAutoKey_VeDatMayBay @MaDonHang = 'DH001', @MaSoChuyenBay = 'CB048'
+GO
+
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang)
+VALUES
+  ( 'Le Van B', '0987654321', 'tranb@yahoo.com', '987654321098', '1988-10-20', 'V047', 'CB025', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van C', '0987654322', 'tranc@ gmail.com', '987654321099', '1988-10-20', 'V047', 'CB025', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van D', '0987654323', 'trand@ gmail.com', '987654321100', '1988-10-20', 'V047', 'CB025', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van E', '0987654324', 'trane@ gmail.com', '987654321101', '1988-10-20', 'V048', 'CB026', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van F', '0987654325', 'tranf@ gmail.com', '987654321102', '1988-10-20', 'V048', 'CB026', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van G', '0987654326', 'trang@ gmail.com', '987654321103', '1988-10-20', 'V049', 'CB027', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van H', '0987654327', 'tranc@ gmail.com', '987654321104', '1988-10-20', 'V049', 'CB027', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van I', '0987654328', 'trand@ gmail.com', '987654321105', '1988-10-20', 'V050', 'CB028', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van J', '0987654329', 'trane@ gmail.com', '987654321106', '1988-10-20', 'V050', 'CB028', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van K', '0987654320', 'tranf@ gmail.com', '987654321107', '1988-10-20', 'V051', 'CB029', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van L', '0987654331', 'trang@ gmail.com', '987654321108', '1988-10-20', 'V051', 'CB029', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van M', '0987654326', 'trang@ gmail.com', '987654321109', '1988-10-20', 'V052', 'CB030', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van N', '0987654327', 'tranc@ gmail.com', '987654321110', '1988-10-20', 'V052', 'CB030', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van O', '0987654328', 'trand@ gmail.com', '987654321111', '1988-10-20', 'V053', 'CB031', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van P', '0987654329', 'trane@ gmail.com', '987654321112', '1988-10-20', 'V053', 'CB031', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van Q', '0987654320', 'tranf@ gmail.com', '987654321113', '1988-10-20', 'V054', 'CB032', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van R', '0987654331', 'trang@ gmail.com', '987654321114', '1988-10-20', 'V054', 'CB032', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van S', '0987654328', 'trand@ gmail.com', '987654321115', '1988-10-20', 'V055', 'CB033', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van T', '0987654329', 'trane@ gmail.com', '987654321116', '1988-10-20', 'V055', 'CB033', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van U', '0987654320', 'tranf@ gmail.com', '987654321117', '1988-10-20', 'V056', 'CB034', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van V', '0987654331', 'trang@ gmail.com', '987654321118', '1988-10-20', 'V056', 'CB034', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van W', '0987654328', 'trand@ gmail.com', '987654321119', '1988-10-20', 'V057', 'CB035', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van X', '0987654329', 'trane@ gmail.com', '987654321120', '1988-10-20', 'V057', 'CB035', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van Y', '0987654320', 'tranf@ gmail.com', '987654321121', '1988-10-20', 'V058', 'CB036', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Le Van Z', '0987654331', 'trang@ gmail.com', '987654321122', '1988-10-20', 'V058', 'CB036', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Ly Thi B', '0987654321', 'tranb@yahoo.com', '887654321098', '1988-10-20', 'V059', 'CB037', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi C', '0987654322', 'tranc@ gmail.com', '887654321099', '1988-10-20', 'V060', 'CB038', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi D', '0987654323', 'trand@ gmail.com', '887654321100', '1988-10-20', 'V061', 'CB039', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi E', '0987654324', 'trane@ gmail.com', '887654321101', '1988-10-20', 'V062', 'CB040', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi F', '0987654325', 'tranf@ gmail.com', '887654321102', '1988-10-20', 'V063', 'CB041', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi G', '0987654326', 'trang@ gmail.com', '887654321103', '1988-10-20', 'V064', 'CB042', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi H', '0987654327', 'tranc@ gmail.com', '887654321104', '1988-10-20', 'V065', 'CB043', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi I', '0987654328', 'trand@ gmail.com', '887654321105', '1988-10-20', 'V066', 'CB044', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi J', '0987654329', 'trane@ gmail.com', '887654321106', '1988-10-20', 'V067', 'CB045', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi K', '0987654320', 'tranf@ gmail.com', '887654321107', '1988-10-20', 'V068', 'CB046', 'Business');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi L', '0987654331', 'trang@ gmail.com', '887654321108', '1988-10-20', 'V069', 'CB047', 'Economy');
+INSERT INTO NguoiThamGiaChuyenBay ( HoVaTen, SoDienThoai, Email, SoCCCD, NgaySinh, MaVeMayBay, MaSoMayBay, LoaiKhoang) values
+  ( 'Tran Thi M', '0987654326', 'trang@ gmail.com', '887654321109', '1988-10-20', 'V070', 'CB048', 'Economy');
+
+
+
+select * from TaiKhoanNganHang
+EXEC InsertAndGetAutoKey_DonHang 'TK001'
+select * from DonHang
+
+select * from TaiKhoanNganHang
+EXEC InsertAndGetAutoKey_DonHang 'TK001'
+select * from DonHang
+
+select * from TaiKhoanNganHang
+EXEC InsertAndGetAutoKey_DonHang 'TK002'
+select * from DonHang
+
+select * from TaiKhoanNganHang
+EXEC InsertAndGetAutoKey_DonHang 'TK002'
+select * from DonHang
+
+update DonHang
+set
+ TinhTrangDonHang = 'Da thanh toan'
+where DonHang.MaKhachHang = 'TK001';
+update DonHang
+set
+ TinhTrangDonHang = 'Da thanh toan'
+where DonHang.MaKhachHang = 'TK002';
+--Thongke doanhthu 12 thang
+SELECT * FROM ThongKeDoanhThu12Thang('TK003', 'AirAsia', 2022);
+--Thongke top khach hang
+SELECT *
+FROM dbo.GetTopPayments(10, '2023-01-01', '2023-12-12');
+
+
+-- THỦ TỤC 1 : Kiểm tra số lượng hành khách trên từng chuyến bay được chọn theo ngày
+-- lấy từ CB25 là quá khứ
+select * from ChuyenBay
+select * from KhoangTrenChuyenBay
+
+-- lấy từ CB25 là quá khứ
+exec SoluongNguoiBayTheoNgay @MaChuDichVu = 'TK003', @Date = '2022-03-01'
+exec SoluongNguoiBayTheoNgay @MaChuDichVu = 'TK003', @Date = '2022-03-14'

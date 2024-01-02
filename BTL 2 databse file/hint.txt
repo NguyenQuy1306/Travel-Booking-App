@@ -1,0 +1,1 @@
+Tạo bảng -> thủ tục trước insert -> dẫn xuất -> trigger theo mô tả -> tạo khóa tự động -> insert
